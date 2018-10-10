@@ -13,10 +13,6 @@
 .containerTop .topRight { flex-basis: 20%; display: flex; flex-direction: column;}
 .containerTop .topRight .userMetrics { flex-basis: 100% }
 
-.containerTop .topLeft .users { flex-basis: 100% }
-.containerTop .topLeft .problems { flex-basis: 100% }
-.containerTop .topLeft .solutionsToday { flex-basis: 100% }
-
 .containerBottom { display: flex; height: 250px;  }
 .containerBottom .businessProblems { flex-basis:40% }
 .containerBottom .budget { flex-basis: 20% }
