@@ -1,4 +1,4 @@
 <div>
   <app-header></app-header>
-  <opportunity-canvas [canvas]="sampleCanvas"></opportunity-canvas>
+  <opportunity-canvas *ngIf="canvasList" [canvas]="canvasList[0]"></opportunity-canvas>
 </div>

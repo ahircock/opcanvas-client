@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { CanvasModel } from '../../model/canvas.model';
 
 @Component({
   selector: 'opportunity-canvas',
@@ -6,9 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./canvas.component.css']
 })
 export class CanvasComponent implements OnInit {
-  @Input() canvas: any;
+  
+  @Input() canvas: CanvasModel;
 
-  constructor() { }
+  constructor(
+  ) { }
 
   ngOnInit() {
   }

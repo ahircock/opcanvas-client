@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { CanvasComponent } from './component/canvas/canvas.component';
 import { CanvasBoxComponent } from './component/canvas-box/canvas-box.component';
+import { CanvasService } from './service/canvas.service';
 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,12 @@ import { CanvasBoxComponent } from './component/canvas-box/canvas-box.component'
     CanvasBoxComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    CanvasService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
