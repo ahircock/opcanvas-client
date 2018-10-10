@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  sampleCanvas = { 
+    "customers": [ 1,2,3],
+    'userValue': "User Value"
+  }
 }

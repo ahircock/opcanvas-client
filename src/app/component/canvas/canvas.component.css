@@ -1,0 +1,27 @@
+.canvas { border: 3px solid black; }
+.containerTop { display: flex; height: 500px;  }
+.containerTop .topLeft { flex-basis: 20%; display: flex; flex-direction: column; }
+.containerTop .topLeft .users { flex-basis: 100% }
+.containerTop .topLeftMid { flex-basis: 20%; display: flex; flex-direction: column; }
+.containerTop .topLeftMid .problems { flex-basis: 50%; }
+.containerTop .topLeftMid .solutionsToday { flex-basis: 50%; }
+.containerTop .topMid { flex-basis: 20%; display: flex; flex-direction: column;}
+.containerTop .topMid .solutionIdeas { flex-basis: 100% }
+.containerTop .topRightMid { flex-basis: 20%; display: flex; flex-direction: column; }
+.containerTop .topRightMid .userValue { flex-basis: 50%; }
+.containerTop .topRightMid .adoption { flex-basis: 50%; }
+.containerTop .topRight { flex-basis: 20%; display: flex; flex-direction: column;}
+.containerTop .topRight .userMetrics { flex-basis: 100% }
+
+.containerTop .topLeft .users { flex-basis: 100% }
+.containerTop .topLeft .problems { flex-basis: 100% }
+.containerTop .topLeft .solutionsToday { flex-basis: 100% }
+
+.containerBottom { display: flex; height: 250px;  }
+.containerBottom .businessProblems { flex-basis:40% }
+.containerBottom .budget { flex-basis: 20% }
+.containerBottom .businessMetrics { flex-basis: 40%;}
+
+/*
+.containerBottom > div, .containerTop > div { border: 1px solid black; }
+*/
